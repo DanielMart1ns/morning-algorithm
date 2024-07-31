@@ -1,0 +1,103 @@
+//Algoritmo relacionado a uma manhã de uma pessoa
+
+//Hora de acordar
+if(sono >= 8h){
+	1- Celular toca o despertador
+	2- Desperto do meu sono
+	3- Abro os meus olhos
+	4- Pego o celular
+	5- Desligo o despertador
+}
+else{
+	1- Desperto do meu sono
+	2- Abro os meus olhos
+	3- Pego o celular
+	4- Desligo o despertador
+}
+
+1- Levando da cama
+2- Calço meu par de chinelos
+3- Vou em direção ao banheiro
+
+if(aPortaDoBanheiro === fechada){
+	1- Bater na porta
+	2- Perguntar se há alguém usando o banheiro
+	
+	if(banheiro === ocupado){
+		1- Esperar desocupar
+	}
+
+	3- Segurar a maçaneta
+	4- Girar a maçaneta em 180°
+	5- Empurrar a porta
+}
+
+4- Entrar no banheiro
+5- Usar o banheiro
+6- Me arrumar
+7- Sair do banheiro
+8- Fechar a porta do banheiro
+
+//Alimentando cachorrinho
+
+9- Pegar o sachê de comida do cachorrinho
+10- Abrir o sachê
+11- Por o sachê no potinho do cachorrinho
+
+//Café da manhã
+
+12- Abro a geladeira
+
+if(quantidadeDeBanana >= 1){
+
+1- Pego uma banana
+2- Fecho a geladeira
+
+	if(aveia === true || amendoim === true){
+		3- Pego um prato
+		4- Removo a casca da banana
+		5- Pego um garfo
+		6- Amasso a banana com um garfo
+		
+		if(aveia === true){
+			1- Misturar a aveia com a banana
+		}
+		if(amendoim === true){
+			1- Misturar o amendoim com a banana
+		}
+	}
+	else{
+		1- Removo a casca da banana
+		2- Consumo a banana
+	}
+}
+else{
+	1- Procuro por outro tipo de alimento
+
+	if(alimentoNaGeladeira === true){
+		1- Pego o alimento encontrado
+		2- Fecho a geladeira
+		3- Consumo o alimento
+	}
+	else{
+		1- Fecho a geladeira
+		2- Procuro por outro tipo de alimento
+		3- Consumo o alimento
+	}
+}
+
+//Hora de estudar
+
+13- Vou em direção ao meu computador
+14- Seguro a cadeira em frente a mesa do computador
+15- Puxo a cadeira
+16- Sento na cadeira
+
+if(computadorEstaLigado){
+	1- Uso o computador
+}
+else{
+	1- Ligo o computador
+	2- Uso o computador
+}
+//Fim da manhã
